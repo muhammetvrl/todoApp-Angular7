@@ -1,0 +1,20 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.page{
+  &.home{
+    margin-top: 50px;
+    .page-title{
+      img{
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
+      }
+    }
+    .example-form{
+      .example-full-width{
+        margin-right: 10px;
+        width: 85%;
+      }
+    }
+  }
+}
